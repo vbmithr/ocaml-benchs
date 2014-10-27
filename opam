@@ -10,5 +10,5 @@ build: [
   [ make ]
 ]
 depends:
-  [ "ocamlfind" {build} "lwt" "async" "camlimages" ]
+  [ "ocamlfind" {build} "lwt" "async" "camlimages" "uuidm" ]
 dev-repo: "git://github.com/vbmithr/ocaml-benchs"
